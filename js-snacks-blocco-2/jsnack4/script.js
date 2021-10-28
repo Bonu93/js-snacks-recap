@@ -20,5 +20,5 @@ while (array1.length != array2.length) {
 console.log(array1);
 console.log(array2);
 
-console.log(array1.length);
-console.log(array2.length);
+console.log(`Il primo array contiene ${array1.length} elementi`);
+console.log(`Il secondo array contiene ${array2.length} elementi`);
