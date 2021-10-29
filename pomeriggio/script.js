@@ -21,7 +21,7 @@ btn.addEventListener('click', function() {
         num = prompt('Inserisci un numero di 4 cifre');
     }
 
-    for (i = 0; i < num.length; i++) {
+    for (let i = 0; i < num.length; i++) {
         somma += parseInt(num[i])
     }
     

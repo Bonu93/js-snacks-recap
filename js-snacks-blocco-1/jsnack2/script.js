@@ -7,7 +7,7 @@
 
 let total = 0;
 
-for (i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
     let num = parseInt(prompt('Inserisci un numero'));
     total += num;  
 }

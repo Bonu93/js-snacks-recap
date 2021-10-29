@@ -7,7 +7,7 @@ const numbers = [3, 5, 8, 10, 43, 32, 55, 22, 20, 11];
 
 let total = 0;
 
-for (i = 0; i < numbers.length - 1; i++) {
+for (let i = 0; i < numbers.length - 1; i++) {
     if (i % 2 === 0) {
         let num = numbers[i];
         console.log(num);

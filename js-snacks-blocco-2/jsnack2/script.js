@@ -8,7 +8,7 @@ const lastNames = ['Morucci', 'Rossi', 'Verdi', 'Mancini', 'Bianchi', 'Marino', 
 
 const list = []
 
-for (i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
     const listName = (names[Math.floor(Math.random() * (names.length - 1))] +' '+ lastNames[Math.floor(Math.random() * (lastNames.length - 1))])
 
     list.push(listName);
